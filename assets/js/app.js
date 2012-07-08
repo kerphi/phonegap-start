@@ -26,6 +26,7 @@ run(function () {
 			}
 		});
 	});
+    when('#face');
     when('#map', function () {
         store.get('config', function (saved) {
             // construct a gmap str
